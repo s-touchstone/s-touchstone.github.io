@@ -1,14 +1,75 @@
-//This is my css file
+/*This is my css file*/
 
+body {
+    background-color: #01233f;
+}
 
 .logo {
-	
+	width: 7%;
+    height: 7%;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.navbutton {
+    display: inline;
+    padding: 1% 1%;
+}
+
+.navbutton:hover {
+    background-color: rgb(194, 189, 189);
+}
+
+.navbuttontext {
+    color: rgb(8, 187, 241);
+    text-decoration: none;
 }
 
 .profilepic {
-	
+    width: 10%;
+    height: 10%;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 30%;
+    float: left;
 }
 
-.aboutmelink {
-	
+.greet {
+    display: inline;
+}
+
+.greethalf1 {
+    color: rgb(8, 187, 241);
+    text-align: center;
+    display: block;
+}
+
+.greethalf2 {
+    font-size: large;
+    color: rgb(8, 187, 241);
+}
+
+.aboutmebutton {
+    color: rgb(8, 187, 241);
+    font-size: small;
+    text-decoration: none;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20%;
+    border-color: rgb(8, 187, 241);
+    padding: 2px;
+}
+
+.aboutmebutton:hover {
+    background-color: rgb(194, 189, 189);
+    border-radius: 20%;
+}
+
+.iconlink {
+    width: 2%;
+    height: 2%;
 }
